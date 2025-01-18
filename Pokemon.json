@@ -1,0 +1,26 @@
+{
+    "pokemon": {
+        "item_count: 1": {
+            "nom":"Bulbasaur",
+            "Generacion":"Primera",
+            "Catergoria":"Semilla",
+            "Tipos": [
+                "Planta",
+                "Veneno"
+            ],
+            "Habilidad":"Espesura",
+            "Hab.oculta":"Clorofila",
+            "Peso":"6.9 kg",
+            "Altura":"0.7 m",
+            "Grupos de huevo": [
+                "Monstruo",
+                "Planta"
+            ],
+            "Sexo": [
+                "Hombre 87.5%",
+                "Mujer 12.5%"
+            ]
+
+        }
+    }
+}
