@@ -1,26 +1,75 @@
 {
-    "pokemon": {
-        "item_count: 1": {
-            "nom":"Bulbasaur",
-            "Generacion":"Primera",
-            "Catergoria":"Semilla",
-            "Tipos": [
-                "Planta",
-                "Veneno"
-            ],
-            "Habilidad":"Espesura",
-            "Hab.oculta":"Clorofila",
-            "Peso":"6.9 kg",
-            "Altura":"0.7 m",
-            "Grupos de huevo": [
-                "Monstruo",
-                "Planta"
-            ],
-            "Sexo": [
-                "Hombre 87.5%",
-                "Mujer 12.5%"
-            ]
+    "pokemons": [
+      {
+        "id": 133,
+        "nombre": "Eevee",
+        "tipo": [
+            "Normal"
+        ],
+        "pesoo": "6.5 kg",
+        "altura": "30 cm",
+        "estadisticas": {
+          "velocidad": 55,
+          "fortaleza": 55,
+          "precision": 50,
+          "resistencia": 65
+        },
+        "moviments": [
+          {
+            "nombre": "Mordisco",
+            "descripció": "Un ataque físico que muerde al oponente.",
+            "potència": 60,
+            "contacte": true
+          },
+          {
+            "nombre": "Ataque rápido",
+            "descripció": "Un ataque muy veloz que siempre golpea primero.",
+            "potència": 40,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f2/latest/20150621181400/Eevee.png/200px-Eevee.png",
+        "evolucion": [
+          {
+            "id": 197,
+            "nombre": "Umbreon",
+            "nivel": "Amistad nocturna"
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "nombre": "Umbreon",
+        "tipo": [
+            "Siniestro"
+        ],
+        "peso": "27.0 kg",
+        "altura": "100 cm",
+        "estadisticas": {
+          "velocidad": 65,
+          "fortaleza": 95,
+          "precision": 60,
+          "resistencia": 110
+        },
+        "moviments": [
+          {
+            "nombre": "Pulso umbrío",
+            "descripció": "Pulso umbrío causa daño y tiene una probabilidad del 20% de amedrentar al objetivo.",
+            "potència": 80,
+            "contacte": false
+          },
+          {
+            "nombre": "Llanto falso",
+            "descripció": "Llanto falso reduce en dos niveles la defensa especial del objetivo.",
+            "potència": 0,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9f/latest/20230521191655/Umbreon.png/200px-Umbreon.png",
+        "evolucion": [
 
-        }
-    }
-}
+        ]
+      }
+    ]
+  }
+  
