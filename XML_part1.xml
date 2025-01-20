@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Almacenaremos la informacion de botiga -->
+<botiga>
+
+    <!-- Producto 1 -->
+
+    <!-- En producto alamcenaremos la informacion del producto -->
+    <producte id="101" disponibilitat="en estoc">
+        <nom>Yamaha R7</nom>
+        <descripcio>La R7, una Moto Deportiva de 700cc, ofrece un diseño Supersport y rendimiento diario emocionante, continuando la evolución de la serie R de Yamaha.</descripcio>
+        <preu>9.799,00</preu>
+        <categoria>Deportiva</categoria>
+        <imatge>https://4kwallpapers.com/images/wallpapers/yamaha-yzf-r7-sports-bikes-5k-2022-2560x1440-5730.jpg</imatge>
+    </producte>
+
+    <!-- Producto 2 -->
+
+    <!-- haremos lo mismo que con producto 1 -->
+
+    <producte id="102" disponibilitat="esgotat">
+        <nom>Yamaha R1M</nom>
+        <descripcio>Es la motocicleta de producción más avanzada para pilotos que están en la cima de su categoría. La R1M, equipada con el legendario motor crossplane de 998 cc y el ligero chasis de aluminio Deltabox de Yamaha.</descripcio>
+        <preu>30.899,00</preu>
+        <categoria>Deportiva</categoria>
+        <imatge>https://wallpapercave.com/wp/wp2021933.jpg</imatge>
+    </producte>
+</botiga>
