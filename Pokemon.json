@@ -1,75 +1,130 @@
 {
     "pokemons": [
-      {
-        "id": 133,
-        "nombre": "Eevee",
-        "tipo": [
-            "Normal"
-        ],
-        "pesoo": "6.5 kg",
-        "altura": "30 cm",
-        "estadisticas": {
-          "velocidad": 55,
-          "fortaleza": 55,
-          "precision": 50,
-          "resistencia": 65
+        {
+            "id": 133,
+            "nombre": "Eevee",
+            "tipo": [
+                "Normal"
+            ],
+            "pesoo": "6.5 kg",
+            "altura": "30 cm",
+            "estadisticas": {
+            "velocidad": 55,
+            "fortaleza": 55,
+            "precision": 50,
+            "resistencia": 65
+            },
+            "movimientos": [
+            {
+                "nombre": "Mordisco",
+                "descripció": "Un ataque físico que muerde al oponente.",
+                "potència": 60,
+                "contacto": true
+            },
+            {
+                "nombre": "Ataque rápido",
+                "descripció": "Un ataque muy veloz que siempre golpea primero.",
+                "potència": 40,
+                "contacto": true
+            }
+            ],
+            "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f2/latest/20150621181400/Eevee.png/200px-Eevee.png",
+            "evolucion": [
+            {
+                "id": 134,
+                "nombre": "Vaporeon",
+                "condicion": [
+                    "Subir de nivel cerca de una roca musgo",
+                    "piedra hoja"
+                ]
+            },
+            {
+                "id": 135,
+                "nombre": "Jolteon",
+                "condicion": [
+                    "Piedra agua"
+                ]
+            },
+            {
+                "id": 136,
+                "nombre": "Flareon",
+                "condicion": [
+                    "Piedra trueno"
+                ]
+            },
+            {
+                "id": 196,
+                "nombre": "Espeon",
+                "condicion": [
+                    "lvl de amistad",
+                    "Subir de nivel durante el dia"
+                ]
+            },
+            {
+                "id": 197,
+                "nombre": "Umbreon",
+                "condicion": [
+                    "nivel de amistad alto",
+                    "Subir de nivel durante el dia"
+                ]
+            },
+            {
+                "id": 470,
+                "nombre": "Leafeon",
+                "condicion": [
+                    "nivel de amistad alto",
+                    "Subir de nivel durante la noche"
+                ]
+            },
+            {
+                "id": 471,
+                "nombre": "Glaceon",
+                "condicion": [
+                    "Subir de nivel cerca de una roca musgo",
+                    "piedra hoja"
+                ]
+            },
+            {
+                "id": 700,
+                "nombre": "Sylveon",
+                "condicion": [
+                    "Subir de nivel cerca de una roca musgo",
+                    "piedra hoja"
+                ]
+            }
+            ]
         },
-        "moviments": [
-          {
-            "nombre": "Mordisco",
-            "descripció": "Un ataque físico que muerde al oponente.",
-            "potència": 60,
-            "contacte": true
-          },
-          {
-            "nombre": "Ataque rápido",
-            "descripció": "Un ataque muy veloz que siempre golpea primero.",
-            "potència": 40,
-            "contacte": true
-          }
-        ],
-        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f2/latest/20150621181400/Eevee.png/200px-Eevee.png",
-        "evolucion": [
-          {
+        {
             "id": 197,
             "nombre": "Umbreon",
-            "nivel": "Amistad nocturna"
-          }
-        ]
-      },
-      {
-        "id": 197,
-        "nombre": "Umbreon",
-        "tipo": [
-            "Siniestro"
-        ],
-        "peso": "27.0 kg",
-        "altura": "100 cm",
-        "estadisticas": {
-          "velocidad": 65,
-          "fortaleza": 95,
-          "precision": 60,
-          "resistencia": 110
-        },
-        "moviments": [
-          {
-            "nombre": "Pulso umbrío",
-            "descripció": "Pulso umbrío causa daño y tiene una probabilidad del 20% de amedrentar al objetivo.",
-            "potència": 80,
-            "contacte": false
-          },
-          {
-            "nombre": "Llanto falso",
-            "descripció": "Llanto falso reduce en dos niveles la defensa especial del objetivo.",
-            "potència": 0,
-            "contacte": false
-          }
-        ],
-        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9f/latest/20230521191655/Umbreon.png/200px-Umbreon.png",
-        "evolucion": [
-
-        ]
-      }
+            "tipo": [
+                "Siniestro"
+            ],
+            "peso": "27.0 kg",
+            "altura": "100 cm",
+            "estadisticas": {
+            "velocidad": 65,
+            "fortaleza": 95,
+            "precision": 60,
+            "resistencia": 110
+            },
+            "movimientos": [
+            {
+                "nombre": "Pulso umbrío",
+                "descripció": "Pulso umbrío causa daño y tiene una probabilidad del 20% de amedrentar al objetivo.",
+                "potència": 80,
+                "contacto": false
+            },
+            {
+                "nombre": "Llanto falso",
+                "descripció": "Llanto falso reduce en dos niveles la defensa especial del objetivo.",
+                "potència": 0,
+                "contacto": false
+            }
+            ],
+            "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/91/latest/20151017155723/Leafeon.png/300px-Leafeon.png",
+            "evolucion": false
+        }
     ]
-  }
+}
   
